@@ -1,0 +1,60 @@
+{
+    "packages": [
+        {
+            "name": "shuchkin/simplexlsxgen",
+            "version": "1.0.23",
+            "version_normalized": "1.0.23.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shuchkin/simplexlsxgen.git",
+                "reference": "40eb704eb28b11af49d92d79f090d748b05f9c2d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shuchkin/simplexlsxgen/zipball/40eb704eb28b11af49d92d79f090d748b05f9c2d",
+                "reference": "40eb704eb28b11af49d92d79f090d748b05f9c2d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "ext-zlib": "*"
+            },
+            "time": "2022-01-31T20:50:32+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/SimpleXLSXGen.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergey Shuchkin (SMSPILOT)",
+                    "email": "sergey.shuchkin@gmail.com",
+                    "homepage": "https://shuchkin.ru/"
+                }
+            ],
+            "description": "Export data to Excel XLSx file. PHP XLSX generator.",
+            "homepage": "https://github.com/shuchkin/simplexlsxgen",
+            "keywords": [
+                "backend",
+                "creator",
+                "excel",
+                "generator",
+                "php",
+                "xlsx"
+            ],
+            "support": {
+                "issues": "https://github.com/shuchkin/simplexlsxgen/issues",
+                "source": "https://github.com/shuchkin/simplexlsxgen/tree/1.0.23"
+            },
+            "install-path": "../shuchkin/simplexlsxgen"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
